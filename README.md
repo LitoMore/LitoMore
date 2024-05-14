@@ -4,39 +4,51 @@ I am an open-sourcerer on GitHub. I used to be keen on open-source projects rela
 
 <p align="center">
   <a href="https://github.com/sponsors/LitoMore">
-    <img height="20" src="https://cdn.simpleicons.org/github/_/white?viewbox=auto" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/github/ccc?viewbox=auto" />
+      <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/github?viewbox=auto" />
+      <img alt="GitHub" height="20" src="https://cdn.simpleicons.org/github?viewbox=auto" />
+    </picture>
   </a>
   <a href="https://gitlab.com/LitoMore">
-    <img height="20" src="https://cdn.simpleicons.org/gitlab/_/white?viewbox=auto" />
+    <img alt="GitLab" height="20" src="https://cdn.simpleicons.org/gitlab?viewbox=auto" />
   </a>
   <a href="http://npmjs.com/~litomore">
-    <img height="20" src="https://cdn.simpleicons.org/npm/_/white?viewbox=auto" />
+    <img alt="npm" height="20" src="https://cdn.simpleicons.org/npm?viewbox=auto" />
   </a>
   <a href="https://x.com/LitoMore">
-    <img height="20" src="https://cdn.simpleicons.org/x/_/white?viewbox=auto">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/x/ccc?viewbox=auto" />
+      <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/x?viewbox=auto" />
+      <img alt="X/Twitter" height="20" src="https://cdn.simpleicons.org/x?viewbox=auto" />
+    </picture>
   </a>
   <a href="https://mastodon.social/@LitoMore">
-    <img height="20" src="https://cdn.simpleicons.org/mastodon/_/white?viewbox=auto" />
+    <img alt="Mastodon" height="20" src="https://cdn.simpleicons.org/mastodon?viewbox=auto" />
   </a>
   <a href="https://instagram.com/instomore">
-    <img height="20" src="https://cdn.simpleicons.org/instagram/_/white?viewbox=auto" />
+    <img alt="Instagram" height="20" src="https://cdn.simpleicons.org/instagram?viewbox=auto" />
   </a>
   <a href="https://bsky.app/profile/litomore.bsky.social">
-    <img height="20" src="https://cdn.simpleicons.org/bluesky/_/white?viewbox=auto" />
+    <img alt="Bluesky" height="20" src="https://cdn.simpleicons.org/bluesky?viewbox=auto" />
   </a>
   <a href="https://linkedin.com/in/litomore">
-    <img height="20" src="https://cdn.simpleicons.org/linkedin/_/white?viewbox=auto" />
+    <img alt="LinkedIn" height="20" src="https://cdn.simpleicons.org/linkedin?viewbox=auto" />
   </a>
   <a href="https://rsm.io/litomore">
-    <img height="20" src="https://cdn.simpleicons.org/standardresume/_/white?viewbox=auto" />
+    <img alt="Standard Resume" height="20" src="https://cdn.simpleicons.org/standardresume?viewbox=auto" />
   </a>
   <a href="https://raycast.com/litomore">
-    <img height="20" src="https://cdn.simpleicons.org/raycast/_/white?viewbox=auto" />
+    <img alt="Raycast" height="20" src="https://cdn.simpleicons.org/raycast?viewbox=auto" />
   </a>
   <a href="https://www.figma.com/@litomore">
-    <img height="20" src="https://cdn.simpleicons.org/figma/_/white?viewbox=auto" />
+    <img alt="Figma" height="20" src="https://cdn.simpleicons.org/figma?viewbox=auto" />
   </a>
   <a href="https://miro.com/marketplace/profile/109351/">
-    <img height="20" src="https://cdn.simpleicons.org/miro/_/white?viewbox=auto" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/miro/ccc?viewbox=auto" />
+      <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/miro?viewbox=auto" />
+      <img alt="Miro" height="20" src="https://cdn.simpleicons.org/miro?viewbox=auto" />
+    </picture>
   </a>
 </p>

@@ -24,7 +24,7 @@ I am an open-sourcerer on GitHub. I used to be keen on open-source projects rela
   <a href="https://bsky.app/profile/litomore.bsky.social">
     <img height="20" src="https://cdn.simpleicons.org/bluesky/_/white?viewbox=auto" />
   </a>
-  <a href="https://raycast/litomore">
+  <a href="https://raycast.com/litomore">
     <img height="20" src="https://cdn.simpleicons.org/raycast/_/white?viewbox=auto" />
   </a>
   <a href="https://www.figma.com/@litomore">

@@ -32,6 +32,9 @@ I am an open-sourcerer on GitHub. I used to be keen on open-source projects rela
   <a href="https://bsky.app/profile/litomore.bsky.social">
     <img alt="Bluesky" height="20" src="https://cdn.simpleicons.org/bluesky?viewbox=auto" />
   </a>
+  <a href="https://linkedin.com/in/litomore">
+    <img alt="LinkedIn" height="20" src="https://cdn.simpleicons.org/linkedin?viewbox=auto" />
+  </a>
   <a href="https://rsm.io/litomore">
     <img alt="Standard Resume" height="20" src="https://cdn.simpleicons.org/standardresume?viewbox=auto" />
   </a>

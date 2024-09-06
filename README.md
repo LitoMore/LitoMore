@@ -53,8 +53,8 @@ I am an open-sourcerer on GitHub. I used to be keen on open-source projects rela
   </a>
   <a href="https://steamcommunity.com/profile/LitoMore">
     <picture>
-      <source media="(prefers-colors-scheme: dark)" srcset="https://cdn.simpleicons.org/steam/fff?viewbox=auto" />
-      <source media="(prefers-colors-scheme: light)" srcset="https://cdn.simpleicons.org/steam?viewbox=auto" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/steam/fff?viewbox=auto" />
+      <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/steam?viewbox=auto" />
       <img alt="Steam" height="20" src="https://cdn.simpleicons.org/steam?viewbox=auto" />
     </picture>    
   </a>

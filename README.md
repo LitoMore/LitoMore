@@ -42,6 +42,13 @@ I am an open-sourcerer on GitHub. I used to be keen on open-source projects rela
   <a href="https://instagram.com/instomore">
     <img alt="Instagram" height="20" src="https://cdn.simpleicons.org/instagram?viewbox=auto" />
   </a>
+  <a href="https://www.threads.net/@instomore">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/threads/fff?viewbox=auto" />
+      <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/threads?viewbox=auto" />
+      <img alt="Threads" height="20" src="https://cdn.simpleicons.org/threads?viewbox=auto" />
+    </picture>
+  </a>
   <a href="https://bsky.app/profile/litomore.bsky.social">
     <img alt="Bluesky" height="20" src="https://cdn.simpleicons.org/bluesky?viewbox=auto" />
   </a>

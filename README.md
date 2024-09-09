@@ -58,6 +58,9 @@ I am an open-sourcerer on GitHub. I used to be keen on open-source projects rela
   <a href="https://rsm.io/litomore">
     <img alt="Standard Resume" height="20" src="https://cdn.simpleicons.org/standardresume?viewbox=auto" />
   </a>
+  <a href="https://discord.com/users/litomore">
+    <img alt="Discord" height="20" src="https://cdn.simpleicons.org/discord?viewbox=auto" />
+  </a>
   <a href="https://steamcommunity.com/profile/LitoMore">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/steam/fff?viewbox=auto" />

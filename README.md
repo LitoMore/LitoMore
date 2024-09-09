@@ -63,13 +63,16 @@ I am an open-sourcerer on GitHub. I used to be keen on open-source projects rela
   </a> -->
   <a href="https://steamcommunity.com/profile/LitoMore">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/steam/fff?viewbox=auto" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/steam/c5c3c0?viewbox=auto" />
       <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/steam?viewbox=auto" />
       <img alt="Steam" height="20" src="https://cdn.simpleicons.org/steam?viewbox=auto" />
     </picture>    
   </a>
   <a href="https://profile.playstation.com/PlaystaMore">
     <img alt="PlayStation" height="20" src="https://cdn.simpleicons.org/playstation?viewbox=auto" />
+  </a>
+  <a href="https://lounge.nintendo.com/friendcode/0957-9664-7192/DShQJ14PtB">
+    <img alt="Nintendo Switch Online" height="20" src="https://cdn.simpleicons.org/nintendoswitch?viewbox=auto" />
   </a>
   <a href="https://open.spotify.com/user/wz0506hvtyfkb0cx55ve9nogv">
     <img alt="Spotify" height="20" src="https://cdn.simpleicons.org/spotify?viewbox=auto" />

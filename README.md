@@ -10,25 +10,25 @@ I am an open-sourcerer on GitHub. I used to be keen on open-source projects rela
       <img alt="GitHub" height="20" src="https://cdn.simpleicons.org/github?viewbox=auto" />
     </picture>
   </a>
-  <a href="https://gitlab.com/LitoMore">
+  <!-- <a href="https://gitlab.com/LitoMore">
     <img alt="GitLab" height="20" src="https://cdn.simpleicons.org/gitlab?viewbox=auto" />
   </a>
   <a href="http://npmjs.com/~litomore">
     <img alt="npm" height="20" src="https://cdn.simpleicons.org/npm?viewbox=auto" />
-  </a>
+  </a> -->
   <a href="https://raycast.com/litomore">
     <img alt="Raycast" height="20" src="https://cdn.simpleicons.org/raycast?viewbox=auto" />
   </a>
   <a href="https://www.figma.com/@litomore">
     <img alt="Figma" height="20" src="https://cdn.simpleicons.org/figma?viewbox=auto" />
   </a>
-  <a href="https://miro.com/marketplace/profile/109351/">
+  <!-- <a href="https://miro.com/marketplace/profile/109351/">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/miro/fff?viewbox=auto" />
       <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/miro?viewbox=auto" />
       <img alt="Miro" height="20" src="https://cdn.simpleicons.org/miro?viewbox=auto" />
     </picture>
-  </a>
+  </a> -->
   <a href="https://x.com/LitoMore">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/x/fff?viewbox=auto" />
@@ -42,7 +42,7 @@ I am an open-sourcerer on GitHub. I used to be keen on open-source projects rela
   <a href="https://instagram.com/instomore">
     <img alt="Instagram" height="20" src="https://cdn.simpleicons.org/instagram?viewbox=auto" />
   </a>
-  <a href="https://www.threads.net/@instomore">
+  <!-- <a href="https://www.threads.net/@instomore">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/threads/fff?viewbox=auto" />
       <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/threads?viewbox=auto" />
@@ -60,7 +60,7 @@ I am an open-sourcerer on GitHub. I used to be keen on open-source projects rela
   </a>
   <a href="https://discord.com/users/litomore">
     <img alt="Discord" height="20" src="https://cdn.simpleicons.org/discord?viewbox=auto" />
-  </a>
+  </a> -->
   <a href="https://steamcommunity.com/profile/LitoMore">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/steam/fff?viewbox=auto" />

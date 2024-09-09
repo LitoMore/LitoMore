@@ -3,14 +3,14 @@
 I am an open-sourcerer on GitHub. I used to be keen on open-source projects related to CLI, but now I am trying more possible directions. If we met here, then it is our fate. I look forward to discussing technology with everyone in the open-source community.
 
 <p align="center">
-  <a href="https://github.com/sponsors/LitoMore">
+  <!-- <a href="https://github.com/sponsors/LitoMore">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/github/fff?viewbox=auto" />
       <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/github?viewbox=auto" />
       <img alt="GitHub" height="20" src="https://cdn.simpleicons.org/github?viewbox=auto" />
     </picture>
   </a>
-  <!-- <a href="https://gitlab.com/LitoMore">
+  <a href="https://gitlab.com/LitoMore">
     <img alt="GitLab" height="20" src="https://cdn.simpleicons.org/gitlab?viewbox=auto" />
   </a>
   <a href="http://npmjs.com/~litomore">
@@ -28,14 +28,14 @@ I am an open-sourcerer on GitHub. I used to be keen on open-source projects rela
       <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/miro?viewbox=auto" />
       <img alt="Miro" height="20" src="https://cdn.simpleicons.org/miro?viewbox=auto" />
     </picture>
-  </a> -->
+  </a>
   <a href="https://x.com/LitoMore">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/x/fff?viewbox=auto" />
       <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/x?viewbox=auto" />
       <img alt="X/Twitter" height="20" src="https://cdn.simpleicons.org/x?viewbox=auto" />
     </picture>
-  </a>
+  </a> -->
   <a href="https://mastodon.social/@LitoMore">
     <img alt="Mastodon" height="20" src="https://cdn.simpleicons.org/mastodon?viewbox=auto" />
   </a>

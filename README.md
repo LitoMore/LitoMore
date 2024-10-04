@@ -2,8 +2,8 @@
 
 I am an open-sourcerer on GitHub. I used to be keen on open-source projects related to CLI, but now I am trying more possible directions. If we met here, then it is our fate. I look forward to discussing technology with everyone in the open-source community.
 
-<p align="center">
-  <!-- <a href="https://github.com/sponsors/LitoMore">
+<!-- <p align="center">
+  <a href="https://github.com/sponsors/LitoMore">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/github/fff?viewbox=auto" />
       <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/github?viewbox=auto" />
@@ -15,14 +15,14 @@ I am an open-sourcerer on GitHub. I used to be keen on open-source projects rela
   </a>
   <a href="http://npmjs.com/~litomore">
     <img alt="npm" height="20" src="https://cdn.simpleicons.org/npm?viewbox=auto" />
-  </a> -->
+  </a>
   <a href="https://raycast.com/litomore">
     <img alt="Raycast" height="20" src="https://cdn.simpleicons.org/raycast?viewbox=auto" />
   </a>
   <a href="https://www.figma.com/@litomore">
     <img alt="Figma" height="20" src="https://cdn.simpleicons.org/figma?viewbox=auto" />
   </a>
-  <!-- <a href="https://miro.com/marketplace/profile/109351/">
+  <a href="https://miro.com/marketplace/profile/109351/">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/miro/fff?viewbox=auto" />
       <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/miro?viewbox=auto" />
@@ -60,21 +60,21 @@ I am an open-sourcerer on GitHub. I used to be keen on open-source projects rela
   </a>
   <a href="https://discord.com/users/litomore">
     <img alt="Discord" height="20" src="https://cdn.simpleicons.org/discord?viewbox=auto" />
-  </a> -->
+  </a>
   <a href="https://steamcommunity.com/id/LitoMore/">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/steam/c5c3c0?viewbox=auto" />
       <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/steam?viewbox=auto" />
       <img alt="Steam" height="20" src="https://cdn.simpleicons.org/steam?viewbox=auto" />
-    </picture>    
+    </picture>
   </a>
-  <!-- <a href="https://profile.playstation.com/PlaystaMore">
+  <a href="https://profile.playstation.com/PlaystaMore">
     <img alt="PlayStation" height="20" src="https://cdn.simpleicons.org/playstation?viewbox=auto" />
   </a>
   <a href="https://lounge.nintendo.com/friendcode/0957-9664-7192/DShQJ14PtB">
     <img alt="Nintendo Switch Online" height="20" src="https://cdn.simpleicons.org/nintendoswitch?viewbox=auto" />
-  </a> -->
+  </a>
   <a href="https://open.spotify.com/user/wz0506hvtyfkb0cx55ve9nogv">
     <img alt="Spotify" height="20" src="https://cdn.simpleicons.org/spotify?viewbox=auto" />
   </a>
-</p>
+</p> -->

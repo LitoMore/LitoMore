@@ -6,6 +6,12 @@
       "title": "Work Experience",
       "experiences": [
         {
+          "title": "InsightFinder",
+          "subtitle": "UI Engineer",
+          "tag": " Durham, NC, United States",
+          "subtag": "Mar, 2025 - Present"
+        },
+        {
           "title": "NextBillion.ai",
           "subtitle": "Full-Stack Engineer",
           "tag": "Singapore",
@@ -14,31 +20,31 @@
         {
           "title": "data.ai",
           "subtitle": "Senior Front-End Engineer",
-          "tag": "Beijing",
+          "tag": "Beijing, China",
           "subtag": "Mar, 2021 - Jun, 2023"
         },
         {
           "title": "Beijing Ark Reading Technology Co., Ltd.",
           "subtitle": "Front-End Engineer",
-          "tag": "Beijing",
+          "tag": "Beijing, China",
           "subtag": "May, 2020 - Mar, 2021"
         },
         {
           "title": "Grab Technology (Beijing) Co., Ltd.",
           "subtitle": "Full-Stack Engineer",
-          "tag": "Beijing",
+          "tag": "Beijing, China",
           "subtag": "Jan, 2018 - May, 2020"
         },
         {
           "title": "Legolova (Beijing) Technology Co., Ltd.",
           "subtitle": "Node.js & PHP Engineer",
-          "tag": "Beijing",
+          "tag": "Beijing, China",
           "subtag": "Aug, 2016 - Sep, 2017"
         },
         {
           "title": "Huanlv International Information Technology (Beijing) Co., Ltd.",
           "subtitle": "PHP Engineer",
-          "tag": "Beijing",
+          "tag": "Beijing, China",
           "subtag": "Feb, 2016 - Jul, 2016"
         }
       ]

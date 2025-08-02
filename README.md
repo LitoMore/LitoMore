@@ -5,76 +5,76 @@ I am an open-sourcerer on GitHub. I used to be keen on open-source projects rela
 <p align="center">
 	<a href="https://github.com/sponsors/LitoMore">
 		<picture>
-			<source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/github/fff" />
-			<source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/github" />
-			<img alt="GitHub" height="20" src="https://cdn.simpleicons.org/github" />
+			<source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/github/fff?size=20" />
+			<source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/github?size=20" />
+			<img alt="GitHub" src="https://cdn.simpleicons.org/github?size=20" />
 		</picture>
 	</a>
 	<a href="https://gitlab.com/LitoMore">
-		<img alt="GitLab" height="20" src="https://cdn.simpleicons.org/gitlab" />
+		<img alt="GitLab" src="https://cdn.simpleicons.org/gitlab?size=20" />
 	</a>
 	<a href="http://npmjs.com/~litomore">
-		<img alt="npm" height="20" src="https://cdn.simpleicons.org/npm" />
+		<img alt="npm" src="https://cdn.simpleicons.org/npm?size=20" />
 	</a>
 	<a href="https://raycast.com/litomore">
-		<img alt="Raycast" height="20" src="https://cdn.simpleicons.org/raycast" />
+		<img alt="Raycast" src="https://cdn.simpleicons.org/raycast?size=20" />
 	</a>
 	<a href="https://www.figma.com/@litomore">
-		<img alt="Figma" height="20" src="https://cdn.simpleicons.org/figma" />
+		<img alt="Figma" src="https://cdn.simpleicons.org/figma?size=20" />
 	</a>
 	<a href="https://miro.com/marketplace/profile/109351/">
 		<picture>
-			<source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/miro/fff" />
-			<source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/miro" />
-			<img alt="Miro" height="20" src="https://cdn.simpleicons.org/miro" />
+			<source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/miro/fff?size=20" />
+			<source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/miro?size=20" />
+			<img alt="Miro" src="https://cdn.simpleicons.org/miro?size=20" />
 		</picture>
 	</a>
 	<a href="https://x.com/LitoMore">
 		<picture>
-			<source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/x/fff" />
-			<source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/x" />
-			<img alt="X/Twitter" height="20" src="https://cdn.simpleicons.org/x" />
+			<source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/x/fff?size=20" />
+			<source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/x?size=20" />
+			<img alt="X/Twitter" src="https://cdn.simpleicons.org/x?size=20" />
 		</picture>
 	</a>
 	<a href="https://mastodon.social/@LitoMore">
-		<img alt="Mastodon" height="20" src="https://cdn.simpleicons.org/mastodon" />
+		<img alt="Mastodon" src="https://cdn.simpleicons.org/mastodon?size=20" />
 	</a>
 	<a href="https://instagram.com/instomore">
-		<img alt="Instagram" height="20" src="https://cdn.simpleicons.org/instagram" />
+		<img alt="Instagram" src="https://cdn.simpleicons.org/instagram?size=20" />
 	</a>
 	<a href="https://www.threads.net/@instomore">
 		<picture>
-			<source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/threads/fff" />
-			<source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/threads" />
-			<img alt="Threads" height="20" src="https://cdn.simpleicons.org/threads" />
+			<source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/threads/fff?size=20" />
+			<source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/threads?size=20" />
+			<img alt="Threads" src="https://cdn.simpleicons.org/threads?size=20" />
 		</picture>
 	</a>
 	<a href="https://bsky.app/profile/litomore.bsky.social">
-		<img alt="Bluesky" height="20" src="https://cdn.simpleicons.org/bluesky" />
+		<img alt="Bluesky" src="https://cdn.simpleicons.org/bluesky?size=20" />
 	</a>
 	<a href="https://linkedin.com/in/litomore">
-		<img alt="LinkedIn" height="20" src="https://brands.deno.dev/linkedin" />
+		<img alt="LinkedIn" src="https://brands.deno.dev/linkedin?size=20" />
 	</a>
 	<a href="https://rsm.io/litomore">
-		<img alt="Standard Resume" height="20" src="https://cdn.simpleicons.org/standardresume" />
+		<img alt="Standard Resume" src="https://cdn.simpleicons.org/standardresume?size=20" />
 	</a>
 	<a href="https://discord.com/users/litomore">
-		<img alt="Discord" height="20" src="https://cdn.simpleicons.org/discord" />
+		<img alt="Discord" src="https://cdn.simpleicons.org/discord?size=20" />
 	</a>
 	<a href="https://steamcommunity.com/id/LitoMore/">
 		<picture>
-			<source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/steam/c5c3c0" />
-			<source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/steam" />
-			<img alt="Steam" height="20" src="https://cdn.simpleicons.org/steam" />
+			<source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/steam/c5c3c0?size=20" />
+			<source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/steam?size=20" />
+			<img alt="Steam" src="https://cdn.simpleicons.org/steam?size=20" />
 		</picture>
 	</a>
 	<a href="https://profile.playstation.com/PlaystaMore">
-		<img alt="PlayStation" height="20" src="https://cdn.simpleicons.org/playstation" />
+		<img alt="PlayStation" src="https://cdn.simpleicons.org/playstation?size=20" />
 	</a>
 	<a href="https://lounge.nintendo.com/friendcode/0957-9664-7192/DShQJ14PtB">
-		<img alt="Nintendo Switch Online" height="20" src="https://brands.deno.dev/nintendoswitch" />
+		<img alt="Nintendo Switch Online" src="https://brands.deno.dev/nintendoswitch?size=20" />
 	</a>
 	<a href="https://open.spotify.com/user/wz0506hvtyfkb0cx55ve9nogv">
-		<img alt="Spotify" height="20" src="https://cdn.simpleicons.org/spotify" />
+		<img alt="Spotify" src="https://cdn.simpleicons.org/spotify?size=20" />
 	</a>
 </p>

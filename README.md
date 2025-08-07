@@ -3,78 +3,21 @@
 I am an open-sourcerer on GitHub. I used to be keen on open-source projects related to CLI, but now I am trying more possible directions. If we met here, then it is our fate. I look forward to discussing technology with everyone in the open-source community.
 
 <p align="center">
-	<a href="https://github.com/sponsors/LitoMore">
-		<picture>
-			<source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/github/fff?size=20" />
-			<source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/github?size=20" />
-			<img alt="GitHub" src="https://cdn.simpleicons.org/github?size=20" />
-		</picture>
-	</a>
-	<a href="https://gitlab.com/LitoMore">
-		<img alt="GitLab" src="https://cdn.simpleicons.org/gitlab?size=20" />
-	</a>
-	<a href="http://npmjs.com/~litomore">
-		<img alt="npm" src="https://cdn.simpleicons.org/npm?size=20" />
-	</a>
-	<a href="https://raycast.com/litomore">
-		<img alt="Raycast" src="https://cdn.simpleicons.org/raycast?size=20" />
-	</a>
-	<a href="https://www.figma.com/@litomore">
-		<img alt="Figma" src="https://cdn.simpleicons.org/figma?size=20" />
-	</a>
-	<a href="https://miro.com/marketplace/profile/109351/">
-		<picture>
-			<source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/miro/fff?size=20" />
-			<source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/miro?size=20" />
-			<img alt="Miro" src="https://cdn.simpleicons.org/miro?size=20" />
-		</picture>
-	</a>
-	<a href="https://x.com/LitoMore">
-		<picture>
-			<source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/x/fff?size=20" />
-			<source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/x?size=20" />
-			<img alt="X/Twitter" src="https://cdn.simpleicons.org/x?size=20" />
-		</picture>
-	</a>
-	<a href="https://mastodon.social/@LitoMore">
-		<img alt="Mastodon" src="https://cdn.simpleicons.org/mastodon?size=20" />
-	</a>
-	<a href="https://instagram.com/instomore">
-		<img alt="Instagram" src="https://cdn.simpleicons.org/instagram?size=20" />
-	</a>
-	<a href="https://www.threads.net/@instomore">
-		<picture>
-			<source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/threads/fff?size=20" />
-			<source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/threads?size=20" />
-			<img alt="Threads" src="https://cdn.simpleicons.org/threads?size=20" />
-		</picture>
-	</a>
-	<a href="https://bsky.app/profile/litomore.bsky.social">
-		<img alt="Bluesky" src="https://cdn.simpleicons.org/bluesky?size=20" />
-	</a>
-	<a href="https://linkedin.com/in/litomore">
-		<img alt="LinkedIn" src="https://brands.deno.dev/linkedin?size=20" />
-	</a>
-	<a href="https://rsm.io/litomore">
-		<img alt="Standard Resume" src="https://cdn.simpleicons.org/standardresume?size=20" />
-	</a>
-	<a href="https://discord.com/users/litomore">
-		<img alt="Discord" src="https://cdn.simpleicons.org/discord?size=20" />
-	</a>
-	<a href="https://steamcommunity.com/id/LitoMore/">
-		<picture>
-			<source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/steam/c5c3c0?size=20" />
-			<source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/steam?size=20" />
-			<img alt="Steam" src="https://cdn.simpleicons.org/steam?size=20" />
-		</picture>
-	</a>
-	<a href="https://profile.playstation.com/PlaystaMore">
-		<img alt="PlayStation" src="https://cdn.simpleicons.org/playstation?size=20" />
-	</a>
-	<a href="https://lounge.nintendo.com/friendcode/0957-9664-7192/DShQJ14PtB">
-		<img alt="Nintendo Switch Online" src="https://brands.deno.dev/nintendoswitch?size=20" />
-	</a>
-	<a href="https://open.spotify.com/user/wz0506hvtyfkb0cx55ve9nogv">
-		<img alt="Spotify" src="https://cdn.simpleicons.org/spotify?size=20" />
-	</a>
+	<a href="https://github.com/sponsors/LitoMore"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=flat-square" /></a>
+	<a href="http://npmjs.com/~litomore"><img alt="npm" src="https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=fff&style=flat-square" /></a>
+	<a href="https://raycast.com/litomore"><img alt="Raycast" src="https://img.shields.io/badge/Raycast-FF6363?logo=raycast&logoColor=fff&style=flat-square" /></a>
+	<a href="https://www.figma.com/@litomore"><img alt="Figma" src="https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=fff&style=flat-square" /></a>
+	<a href="https://miro.com/marketplace/profile/109351/"><img alt="Miro" src="https://img.shields.io/badge/Miro-050038?logo=miro&logoColor=fff&style=flat-square" /></a>
+	<a href="https://x.com/LitoMore"><img alt="X/Twitter" src="https://img.shields.io/badge/X%2FTwitter-000000?logo=x&logoColor=fff&style=flat-square" /></a>
+	<a href="https://mastodon.social/@LitoMore"><img alt="Mastodon" src="https://img.shields.io/badge/Mastodon-6364FF?logo=mastodon&logoColor=fff&style=flat-square" /></a>
+	<a href="https://instagram.com/instomore"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-FF0069?logo=instagram&logoColor=fff&style=flat-square" /></a>
+	<a href="https://www.threads.net/@instomore"><img alt="Threads" src="https://img.shields.io/badge/Threads-000000?logo=threads&logoColor=fff&style=flat-square" /></a>
+	<a href="https://bsky.app/profile/litomore.me"><img alt="Bluesky" src="https://img.shields.io/badge/Bluesky-0285FF?logo=bluesky&logoColor=fff&style=flat-square" /></a>
+	<a href="https://linkedin.com/in/litomore"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyBmaWxsPSIjZmZmIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU%2BTGlua2VkSW48L3RpdGxlPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg%3D%3D&logoColor=fff&style=flat-square" /></a>
+	<a href="https://rsm.io/litomore"><img alt="Standard Resume" src="https://img.shields.io/badge/Standard%20Resume-2A3FFB?logo=standardresume&logoColor=fff&style=flat-square" /></a>
+	<a href="https://discord.com/users/litomore"><img alt="Discord" src="https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=fff&style=flat-square" /></a>
+	<a href="https://steamcommunity.com/id/LitoMore/"><img alt="Steam" src="https://img.shields.io/badge/Steam-000000?logo=steam&logoColor=fff&style=flat-square" /></a>
+	<a href="https://profile.playstation.com/PlaystaMore"><img alt="PlayStation" src="https://img.shields.io/badge/PlayStation-0070D1?logo=playstation&logoColor=fff&style=flat-square&logoSize=auto" /></a>
+	<a href="https://lounge.nintendo.com/friendcode/0957-9664-7192/DShQJ14PtB"><img alt="Nintendo Switch Online" src="https://img.shields.io/badge/Nintendo%20Switch-E60012?logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyBmaWxsPSIjZmZmIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU%2BTmludGVuZG8gU3dpdGNoPC90aXRsZT48cGF0aCBkPSJNMTQuMTc2IDI0aDMuNjc0YzMuMzc2IDAgNi4xNS0yLjc3NCA2LjE1LTYuMTVWNi4xNUMyNCAyLjc3NSAyMS4yMjYgMCAxNy44NSAwSDE0LjFjLS4wNzQgMC0uMTUuMDc0LS4xNS4xNXYyMy43Yy0uMDAxLjA3Ni4wNzUuMTUuMjI2LjE1em00LjU3NC0xMy4xOTljMS4zNTEgMCAyLjM5OSAxLjEyNSAyLjM5OSAyLjM5OCAwIDEuMzUyLTEuMTI1IDIuNC0yLjM5OSAyLjQtMS4zNSAwLTIuNC0xLjA0OS0yLjQtMi40LS4wNzUtMS4zNDkgMS4wNS0yLjM5OCAyLjQtMi4zOTh6TTExLjQgMEg2LjE1QzIuNzc1IDAgMCAyLjc3NSAwIDYuMTV2MTEuN0MwIDIxLjIyNiAyLjc3NSAyNCA2LjE1IDI0aDUuMjVjLjA3NCAwIC4xNS0uMDc0LjE1LS4xNDlWLjE1Yy4wMDEtLjA3Ni0uMDc1LS4xNS0uMTUtLjE1ek05LjY3NiAyMi4wNTFINi4xNWMtMi4zMjYgMC00LjIwMS0xLjg3NS00LjIwMS00LjIwMVY2LjE1YzAtMi4zMjYgMS44NzUtNC4yMDEgNC4yMDEtNC4yMDFIOS42bC4wNzYgMjAuMTAyek0zLjc1IDcuMTk5YzAgMS4yNzUuOTc1IDIuMjUgMi4yNSAyLjI1czIuMjUtLjk3NSAyLjI1LTIuMjVjMC0xLjI3My0uOTc1LTIuMjUtMi4yNS0yLjI1cy0yLjI1Ljk3Ny0yLjI1IDIuMjV6Ii8%2BPC9zdmc%2B&logoColor=fff&style=flat-square" /></a>
+	<a href="https://open.spotify.com/user/wz0506hvtyfkb0cx55ve9nogv"><img alt="Spotify" src="https://img.shields.io/badge/Spotify-1ED760?logo=spotify&logoColor=fff&style=flat-square" /></a>
 </p>

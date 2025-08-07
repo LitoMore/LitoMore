@@ -3,7 +3,7 @@
 I am an open-sourcerer on GitHub. I used to be keen on open-source projects related to CLI, but now I am trying more possible directions. If we met here, then it is our fate. I look forward to discussing technology with everyone in the open-source community.
 
 <p align="center">
-	<a href="https://github.com/sponsors/LitoMore"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=flat-square" /></a>
+	<a href="https://github.com/sponsors/LitoMore"><img alt="GitHub Sponsors" src="https://img.shields.io/badge/GitHub%20Sponsors-EA4AAA?logo=githubsponsors&logoColor=fff&style=flat-square" /></a>
 	<a href="http://npmjs.com/~litomore"><img alt="npm" src="https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=fff&style=flat-square" /></a>
 	<a href="https://raycast.com/litomore"><img alt="Raycast" src="https://img.shields.io/badge/Raycast-FF6363?logo=raycast&logoColor=fff&style=flat-square" /></a>
 	<a href="https://www.figma.com/@litomore"><img alt="Figma" src="https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=fff&style=flat-square" /></a>

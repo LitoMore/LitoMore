@@ -6,10 +6,16 @@
 			"title": "Work Experience",
 			"experiences": [
 				{
+					"title": "marswave.ai",
+					"subtitle": "AI Agent Builder",
+					"tag": "Beijing",
+					"subtag": "Oct, 2025 - Present"
+				},
+				{
 					"title": "InsightFinder",
 					"subtitle": "UI Engineer",
 					"tag": " Durham, NC, United States",
-					"subtag": "Mar, 2025 - Present"
+					"subtag": "Mar, 2025 - May, 2025"
 				},
 				{
 					"title": "NextBillion.ai",

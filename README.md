@@ -7,6 +7,7 @@ I am an open-sourcerer on GitHub. I used to be keen on open-source projects rela
 	<a href="https://raycast.com/litomore?via=litomore"><img alt="Raycast" src="https://img.shields.io/badge/Raycast_Ambassador-222?logo=raycast&logoColor=fff&style=flat-square" /></a>
 	<a href="https://github.com/LitoMore/await-widgets"><img alt="Await" src="https://img.shields.io/badge/Await-7858F5?logo=await&logoColor=fff&style=flat-square" /></a>
 	<a href="https://github.com/LitoMore/trmnl-firmware/releases/tag/zectrix-v1.8.10"><img alt="ZecTrix" src="https://img.shields.io/badge/ZecTrix-000000?logo=zectrix&logoColor=fff&logoSize=auto&style=flat-square" /></a>
+	<a href="https://github.com/search?q=owner%3ALitoMore+topic%3Am5stack&type=repositories"><img alt="M5Stack" src="https://img.shields.io/badge/M5Stack-0077C8?logo=m5stack&logoColor=fff&logoSize=auto&style=flat-square" /></a>
 	<a href="http://npmjs.com/~litomore"><img alt="npm" src="https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=fff&style=flat-square" /></a>
 	<a href="https://www.figma.com/@litomore"><img alt="Figma" src="https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=fff&style=flat-square" /></a>
 	<a href="https://miro.com/marketplace/profile/109351/"><img alt="Miro" src="https://img.shields.io/badge/Miro-050038?logo=miro&logoColor=fff&style=flat-square" /></a>

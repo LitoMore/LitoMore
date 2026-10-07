@@ -108,6 +108,7 @@ const section = `<!-- Badge Sponsors -->
 ${usernames.map((username) => `\t<a href="https://github.com/${username}"><img src="./sponsors/${username}.svg" alt="@${username}" /></a>`).join("\n")}
 </p>
 <p align="center">Thank you for purchasing my badges and supporting my open-source work.</p>
+<p align="center">You can purchase my badges on <a href="https://www.xiaohongshu.com/goods-detail/6ac167a90ff6d700012b5a00">Xiaohongshu</a> or <a href="https://mall.bilibili.com/neul-next/detailuniversal/detail.html?from=detailspage&amp;channel=COPY&amp;isMerchant=1&amp;share_mid=15209887&amp;itemsId=42301460&amp;jumpLinkType=0&amp;noTitleBar=1&amp;page=detailuniversal_detail#noReffer=true">Bilibili</a>.</p>
 <!-- End Badge Sponsors -->`;
 await writeIfChanged(readmeFile, readme.replace(sectionPattern, section));
 console.log(

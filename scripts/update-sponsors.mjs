@@ -3,10 +3,13 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 // Edit this list, then run: node scripts/update-sponsors.mjs
 const usernames = ["weiuou", "hunterMG", "0xFANGO"];
 
-const avatarSize = 64;
+const avatarSize = 48;
+const borderWidth = 1;
+const borderColor = "#1f232826";
 const outputDirectory = new URL("../sponsors/", import.meta.url);
 const readmeFile = new URL("../README.md", import.meta.url);
-const sectionPattern = /<!-- Badge Sponsors -->[\s\S]*?<!-- End Badge Sponsors -->/;
+const sectionPattern =
+	/<!-- Badge Sponsors -->[\s\S]*?<!-- End Badge Sponsors -->/;
 
 if (
 	usernames.length === 0 ||
@@ -19,13 +22,18 @@ if (
 	throw new Error("Add at least one valid GitHub username to the list.");
 }
 
-if (new Set(usernames.map((username) => username.toLowerCase())).size !== usernames.length) {
+if (
+	new Set(usernames.map((username) => username.toLowerCase())).size !==
+	usernames.length
+) {
 	throw new Error("The sponsor list contains duplicate usernames.");
 }
 
 const readme = await readFile(readmeFile, "utf8");
 if (!sectionPattern.test(readme)) {
-	throw new Error("README.md must contain Badge Sponsors and End Badge Sponsors comments.");
+	throw new Error(
+		"README.md must contain Badge Sponsors and End Badge Sponsors comments.",
+	);
 }
 
 // Embed avatars because SVG images in GitHub READMEs cannot load external URLs.
@@ -69,6 +77,8 @@ function renderAvatar(username, dataUrl) {
 \t<image width="${avatarSize}" height="${avatarSize}" clip-path="url(#avatar)"
 \t\tpreserveAspectRatio="xMidYMid slice"
 \t\thref="${dataUrl}" />
+\t<circle cx="${avatarSize / 2}" cy="${avatarSize / 2}" r="${(avatarSize - borderWidth) / 2}"
+\t\tfill="none" stroke="${borderColor}" stroke-width="${borderWidth}" />
 </svg>\n`;
 }
 
@@ -83,9 +93,14 @@ async function writeIfChanged(file, content) {
 }
 
 await mkdir(outputDirectory, { recursive: true });
-await Promise.all(usernames.map((username, index) =>
-	writeIfChanged(new URL(`${username}.svg`, outputDirectory), renderAvatar(username, avatars[index])),
-));
+await Promise.all(
+	usernames.map((username, index) =>
+		writeIfChanged(
+			new URL(`${username}.svg`, outputDirectory),
+			renderAvatar(username, avatars[index]),
+		),
+	),
+);
 
 const section = `<!-- Badge Sponsors -->
 <h3 align="center">Badge Sponsors</h3>
@@ -94,4 +109,6 @@ ${usernames.map((username) => `\t<a href="https://github.com/${username}"><img s
 </p>
 <!-- End Badge Sponsors -->`;
 await writeIfChanged(readmeFile, readme.replace(sectionPattern, section));
-console.log(`Generated ${usernames.length} sponsor SVGs and updated README.md.`);
+console.log(
+	`Generated ${usernames.length} sponsor SVGs and updated README.md.`,
+);

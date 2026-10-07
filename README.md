@@ -36,4 +36,5 @@ I am an open-sourcerer on GitHub. I used to be keen on open-source projects rela
 	<a href="https://github.com/hunterMG"><img src="./sponsors/hunterMG.svg" alt="@hunterMG" /></a>
 	<a href="https://github.com/0xFANGO"><img src="./sponsors/0xFANGO.svg" alt="@0xFANGO" /></a>
 </p>
+<p align="center">Thank you for purchasing my badges and supporting my open-source work.</p>
 <!-- End Badge Sponsors -->

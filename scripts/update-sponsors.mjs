@@ -107,6 +107,7 @@ const section = `<!-- Badge Sponsors -->
 <p align="center">
 ${usernames.map((username) => `\t<a href="https://github.com/${username}"><img src="./sponsors/${username}.svg" alt="@${username}" /></a>`).join("\n")}
 </p>
+<p align="center">Thank you for purchasing my badges and supporting my open-source work.</p>
 <!-- End Badge Sponsors -->`;
 await writeIfChanged(readmeFile, readme.replace(sectionPattern, section));
 console.log(

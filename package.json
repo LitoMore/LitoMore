@@ -1,0 +1,10 @@
+{
+	"name": "litomore-profile",
+	"private": true,
+	"scripts": {
+		"update:sponsors": "node scripts/update-sponsors.mjs"
+	},
+	"devDependencies": {
+		"sharp": "^0.35.5"
+	}
+}

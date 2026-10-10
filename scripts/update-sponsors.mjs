@@ -1,12 +1,19 @@
+import { createHash } from "node:crypto";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
+import sharp from "sharp";
 
-// Edit this list, then run: node scripts/update-sponsors.mjs
+// Run npm ci once, then edit this list and run npm run update:sponsors.
 const usernames = ["weiuou", "hunterMG", "0xFANGO"];
 
 const avatarSize = 48;
+// Render at 3x for high-density screens; README keeps the display size at 48px.
+const pixelRatio = 3;
+const outputSize = avatarSize * pixelRatio;
 const borderWidth = 1;
 const borderColor = "#1f232826";
+const webpOptions = { quality: 80, effort: 6 };
 const outputDirectory = new URL("../sponsors/", import.meta.url);
+const cacheFile = new URL("cache.json", outputDirectory);
 const readmeFile = new URL("../README.md", import.meta.url);
 const sectionPattern =
 	/<!-- Badge Sponsors -->[\s\S]*?<!-- End Badge Sponsors -->/;
@@ -36,12 +43,29 @@ if (!sectionPattern.test(readme)) {
 	);
 }
 
-// Embed avatars because SVG images in GitHub READMEs cannot load external URLs.
-// Finish every download before writing, preserving the existing SVG on failure.
+// Include the SVG template, encoding options, and library versions so rendering
+// changes invalidate the cache even when the downloaded avatar is unchanged.
+const renderHash = hash(
+	renderAvatar("avatar", "") +
+		JSON.stringify({
+			pixelRatio,
+			outputSize,
+			webpOptions,
+			versions: sharp.versions,
+		}),
+);
+const cache = await readFile(cacheFile, "utf8")
+	.then(JSON.parse)
+	.catch((error) => {
+		if (error.code !== "ENOENT" && !(error instanceof SyntaxError)) throw error;
+		return undefined;
+	});
+
+// Finish every download and conversion before writing, preserving files on failure.
 const avatars = await Promise.all(
 	usernames.map(async (username) => {
 		const response = await fetch(
-			`https://github.com/${username}.png?size=${avatarSize * 2}`,
+			`https://github.com/${username}.png?size=${outputSize}`,
 			{
 				signal: AbortSignal.timeout(30_000),
 			},
@@ -61,7 +85,25 @@ const avatars = await Promise.all(
 		if (data.length === 0) {
 			throw new Error(`Empty avatar for @${username}`);
 		}
-		return `data:${type};base64,${data.toString("base64")}`;
+		const sourceHash = hash(data);
+		const file = new URL(`${username}.webp`, outputDirectory);
+		const cached = cache?.avatars?.[username];
+		if (cache?.renderHash === renderHash && cached?.sourceHash === sourceHash) {
+			const existing = await readOptional(file);
+			// A missing or modified output must be regenerated, too.
+			if (existing && hash(existing) === cached.outputHash) {
+				return { file, sourceHash, outputHash: cached.outputHash };
+			}
+		}
+		const dataUrl = `data:${type};base64,${data.toString("base64")}`;
+		// Rasterize the complete SVG so the crop and border also render at 3x.
+		const content = await sharp(Buffer.from(renderAvatar(username, dataUrl)), {
+			density: 72 * pixelRatio,
+		})
+			.resize(outputSize, outputSize)
+			.webp(webpOptions)
+			.toBuffer();
+		return { file, sourceHash, outputHash: hash(content), content };
 	}),
 );
 
@@ -82,35 +124,60 @@ function renderAvatar(username, dataUrl) {
 </svg>\n`;
 }
 
-async function writeIfChanged(file, content) {
-	const previous = await readFile(file, "utf8").catch((error) => {
+function hash(content) {
+	return createHash("sha256").update(content).digest("hex");
+}
+
+async function readOptional(file) {
+	return readFile(file).catch((error) => {
 		if (error.code !== "ENOENT") throw error;
 		return undefined;
 	});
-	if (previous !== content) {
+}
+
+async function writeIfChanged(file, content) {
+	const previous = await readOptional(file);
+	if (!previous?.equals(Buffer.from(content))) {
 		await writeFile(file, content);
 	}
 }
 
 await mkdir(outputDirectory, { recursive: true });
 await Promise.all(
-	usernames.map((username, index) =>
-		writeIfChanged(
-			new URL(`${username}.svg`, outputDirectory),
-			renderAvatar(username, avatars[index]),
-		),
+	avatars.map(({ file, content }) =>
+		content ? writeIfChanged(file, content) : undefined,
 	),
 );
 
 const section = `<!-- Badge Sponsors -->
 <h3 align="center">Badge Sponsors</h3>
 <p align="center">
-${usernames.map((username) => `\t<a href="https://github.com/${username}"><img src="./sponsors/${username}.svg" alt="@${username}" /></a>`).join("\n")}
+${usernames.map((username) => `\t<a href="https://github.com/${username}"><img src="./sponsors/${username}.webp" alt="@${username}" width="${avatarSize}" height="${avatarSize}" /></a>`).join("\n")}
 </p>
-<p align="center">Thank you for purchasing my badges and supporting my open-source work.</p>
-<p align="center">You can purchase my badges on <a href="https://www.xiaohongshu.com/goods-detail/6ac167a90ff6d700012b5a00">Xiaohongshu</a> or <a href="https://mall.bilibili.com/neul-next/detailuniversal/detail.html?from=detailspage&amp;channel=COPY&amp;isMerchant=1&amp;share_mid=15209887&amp;itemsId=42301460&amp;jumpLinkType=0&amp;noTitleBar=1&amp;page=detailuniversal_detail#noReffer=true">Bilibili</a>.</p>
+<h6 align="center">
+Thank you for purchasing my badges and supporting my open-source work.<br />
+You can purchase my badges on <a href="https://mall.bilibili.com/neul-next/detailuniversal/detail.html?from=detailspage&amp;channel=COPY&amp;isMerchant=1&amp;share_mid=15209887&amp;itemsId=42301460&amp;jumpLinkType=0&amp;noTitleBar=1&amp;page=detailuniversal_detail#noReffer=true">Bilibili</a> or <a href="https://www.xiaohongshu.com/goods-detail/6ac167a90ff6d700012b5a00">RedNote</a>.
+</h6>
 <!-- End Badge Sponsors -->`;
 await writeIfChanged(readmeFile, readme.replace(sectionPattern, section));
+// Publish hashes only after all outputs have been written successfully.
+await writeIfChanged(
+	cacheFile,
+	JSON.stringify(
+		{
+			renderHash,
+			avatars: Object.fromEntries(
+				avatars.map(({ sourceHash, outputHash }, index) => [
+					usernames[index],
+					{ sourceHash, outputHash },
+				]),
+			),
+		},
+		null,
+		"\t",
+	) + "\n",
+);
+const generated = avatars.filter(({ content }) => content).length;
 console.log(
-	`Generated ${usernames.length} sponsor SVGs and updated README.md.`,
+	`Generated ${generated} sponsor WebPs, reused ${avatars.length - generated} unchanged avatars (${outputSize}×${outputSize}, displayed at ${avatarSize}×${avatarSize}), and updated README.md.`,
 );

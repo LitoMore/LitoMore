@@ -32,9 +32,9 @@ I am an open-sourcerer on GitHub. I used to be keen on open-source projects rela
 <!-- Badge Sponsors -->
 <h3 align="center">Badge Sponsors</h3>
 <p align="center">
-	<a href="https://github.com/weiuou"><img src="./sponsors/weiuou.svg" alt="@weiuou" /></a>
-	<a href="https://github.com/hunterMG"><img src="./sponsors/hunterMG.svg" alt="@hunterMG" /></a>
-	<a href="https://github.com/0xFANGO"><img src="./sponsors/0xFANGO.svg" alt="@0xFANGO" /></a>
+	<a href="https://github.com/weiuou"><img src="./sponsors/weiuou.webp" alt="@weiuou" width="48" height="48" /></a>
+	<a href="https://github.com/hunterMG"><img src="./sponsors/hunterMG.webp" alt="@hunterMG" width="48" height="48" /></a>
+	<a href="https://github.com/0xFANGO"><img src="./sponsors/0xFANGO.webp" alt="@0xFANGO" width="48" height="48" /></a>
 </p>
 <h6 align="center">
 Thank you for purchasing my badges and supporting my open-source work.<br />

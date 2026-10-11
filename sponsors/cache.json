@@ -12,6 +12,10 @@
 		"0xFANGO": {
 			"sourceHash": "38eb421c1f91ca1598e05fa40de848a4acd7a7938f08bf5c5e6f27ea4b4abb66",
 			"outputHash": "b41cc7abae25ceacdbc8f6a08a4d2263ff07e3f3ca6c4bdd338005fe7afd9c1c"
+		},
+		"luyii-code-1": {
+			"sourceHash": "8f1ee33c5e9782d06e66e85be8d9dbbdf8aded5ccd40876c1f4eaf07a3812c91",
+			"outputHash": "50ba9599eb033b919e3f3f32866678238b4247cf0267d6d98d4358e18d862bc2"
 		}
 	}
 }

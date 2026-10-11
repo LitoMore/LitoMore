@@ -159,7 +159,7 @@ await Promise.all(
 const section = `<!-- Badge Sponsors -->
 <h3 align="center">Badge Sponsors</h3>
 <p align="center">
-${usernames.map((username) => `\t<a href="https://github.com/${username}"><img src="${imageBaseUrl}${username}.webp" alt="@${username}" width="${avatarSize}" height="${avatarSize}" /></a>`).join("\n")}
+${usernames.map((username) => `\t<a href="https://github.com/${username}"><img src="${imageBaseUrl}${username}.webp" alt="@${username}" width="${avatarSize}" /></a>`).join("\n")}
 </p>
 <h6 align="center">
 Thank you for purchasing my badges and supporting my open-source work.<br />

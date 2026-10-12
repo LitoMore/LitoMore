@@ -16,6 +16,14 @@
 		"luyii-code-1": {
 			"sourceHash": "8f1ee33c5e9782d06e66e85be8d9dbbdf8aded5ccd40876c1f4eaf07a3812c91",
 			"outputHash": "50ba9599eb033b919e3f3f32866678238b4247cf0267d6d98d4358e18d862bc2"
+		},
+		"HeLongaa": {
+			"sourceHash": "bf72d0e99459b2c1be28dee9fbe76d37acee3c0309424b37b4d40a7c3a85dd35",
+			"outputHash": "f1811db0e575b102a0f4e3632b114d14845132750efff25ec8281e1b38406309"
+		},
+		"QuintinZong": {
+			"sourceHash": "4e3a3aac906365f8a15add528a6c21257bbc4b526560f02b3746a09d36e34265",
+			"outputHash": "9ed8ef1d267fa2dae168440a1930e756c8cac72686a0ac3bedd18e0c6f0eaff7"
 		}
 	}
 }

@@ -38,6 +38,7 @@ I am an open-sourcerer on GitHub. I used to be keen on open-source projects rela
 	<a href="https://github.com/luyii-code-1"><img src="https://raw.githubusercontent.com/LitoMore/LitoMore/main/sponsors/luyii-code-1.webp" alt="@luyii-code-1" width="48" /></a>
 	<a href="https://github.com/HeLongaa"><img src="https://raw.githubusercontent.com/LitoMore/LitoMore/main/sponsors/HeLongaa.webp" alt="@HeLongaa" width="48" /></a>
 	<a href="https://github.com/QuintinZong"><img src="https://raw.githubusercontent.com/LitoMore/LitoMore/main/sponsors/QuintinZong.webp" alt="@QuintinZong" width="48" /></a>
+	<a href="https://github.com/xifan2333"><img src="https://raw.githubusercontent.com/LitoMore/LitoMore/main/sponsors/xifan2333.webp" alt="@xifan2333" width="48" /></a>
 </p>
 <h6 align="center">
 Thank you for purchasing my badges and supporting my open-source work.<br />

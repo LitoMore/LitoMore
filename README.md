@@ -27,6 +27,7 @@ I am an open-sourcerer on GitHub. I used to be keen on open-source projects rela
 	<a href="https://open.spotify.com/user/wz0506hvtyfkb0cx55ve9nogv"><img alt="Spotify" src="https://img.shields.io/badge/Spotify-1ED760?logo=spotify&logoColor=fff&style=flat-square" /></a>
 	<a href="https://live.bilibili.com/21532777"><img alt="Bilibili Live" src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=fff&style=flat-square" /></a>
 	<a href="https://xhslink.cn/o/ArCymYDMSU1"><img alt="Xiaohongshu" src="https://img.shields.io/badge/RedNote-FF2442?logo=xiaohongshu&logoColor=fff&logoSize=auto&style=flat-square" /></a>
+	<a href="http://fanfou.com/lito"><img alt="Fanfou" src="https://img.shields.io/badge/Fanfou-00CCFF?logo=fanfou&logoColor=fff&logoSize=auto&style=flat-square" /></a>
 </p>
 
 <!-- Badge Sponsors -->
